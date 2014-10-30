@@ -21,12 +21,12 @@ repo you are working with.
 ## Part 1 - Getting Started with the key generation
 sign into the user account that will do the work "mran-user" in this case.
 
-`ssh-keygen -t ecdsa -b 521 -C "MRAN-site@revolutionanalytics.com"`  
+`ssh-keygen -t ecdsa -b 521 -C "MRAN-site@revolutionanalytics.com" -N ''`  
 Set the output of the key file to be:  
 `$HOME/.ssh/MRAN-site-ecdsa`
 note, do not set a passphrase.
 
-`ssh-keygen -t ecdsa -b 521 -C "OSS-site@revolutionanalytics.com"`  
+`ssh-keygen -t ecdsa -b 521 -C "OSS-site@revolutionanalytics.com" -N ''`  
 Set the output of the key file to be:  
 `$HOME/.ssh/OSS-site-ecdsa`  
 note, do not set a passphrase.
